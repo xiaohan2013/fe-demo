@@ -2,3 +2,5 @@
 
 * riot-tmpl
 * riot-
+
+* lerna-demo

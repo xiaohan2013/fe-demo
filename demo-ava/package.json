@@ -1,0 +1,18 @@
+{
+    "name": "demo-ava",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "ava -v test/*.spec.js --tap"
+    },
+    "keywords": [
+        "ava",
+        "test"
+    ],
+    "author": "xiaohan2013",
+    "license": "ISC",
+    "devDependencies": {
+        "ava": "^0.22.0"
+    }
+}

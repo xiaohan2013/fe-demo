@@ -1,0 +1,24 @@
+{
+    "name": "demo-snabbdom",
+    "version": "1.0.0",
+    "description": "snabbdom",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build-1": "babel src/index.js -o build/build.js --presets=env --plugins transform-es2015-modules-umd",
+        "build-3": "browserify src/index.js -o build/build.js -t [ babelify --presets [ env ] --plugins transform-es2015-modules-umd ]",
+        "build": "browserify src/index.js -o build/build.js -t [ babelify --presets [ env ] ]",
+        "build-x": "rollup src/index.js -o build/build.js -f umd"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "snabbdom": "^0.7.0"
+    },
+    "devDependencies": {
+        "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+        "babel-preset-env": "^1.6.0",
+        "babelify": "^7.3.0",
+        "rollup": "^0.50.0"
+    }
+}

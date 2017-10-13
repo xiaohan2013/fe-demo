@@ -2,7 +2,6 @@
 
 * riot-tmpl
 * riot-
-
 * lerna-demo
 * snabbdom-demo
 
